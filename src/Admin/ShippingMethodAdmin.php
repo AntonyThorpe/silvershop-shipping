@@ -23,7 +23,7 @@ class ShippingMethodAdmin extends ModelAdmin
 
     private static int $menu_priority = 3;
 
-    private static string $menu_icon = 'silvershop/shipping:images/shipping.png';
+    private static $menu_icon_class = 'fas fa-truck';
 
     private static array $managed_models = [
         ShippingMethod::class,
